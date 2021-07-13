@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/headerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/bgcolor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="121dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="116dp"
+                android:text="@string/app_name"
+                android:textColor="#ffff"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="ARE YOU?"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="@color/colorHeader"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:layout_width="500px"
+            android:layout_height="60dp"
+            android:text="CUSTOMER"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/search"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginLeft="110dp"
+            />
+        <Button
+            android:layout_width="500px"
+            android:layout_height="60dp"
+            android:text="SELLER"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/list"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginLeft="110dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

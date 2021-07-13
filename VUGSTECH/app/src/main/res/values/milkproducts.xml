@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="milkproducts">
+    <item>Milk</item>
+    <item>Butter</item>
+    <item>Cheese</item>
+    <item>Miyonese</item>
+    </string-array>
+</resources>

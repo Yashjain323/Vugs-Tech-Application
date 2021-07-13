@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerDecide">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/headerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bgcolor">
+
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="85dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="143dp"
+            android:text="@string/app_name"
+            android:textColor="#ffff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/locationButton"
+            android:layout_width="78dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="142dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-28dp"
+            android:layout_marginBottom="70dp"
+            android:text="Get Location"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Search Products FROM:"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="@color/colorHeader"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:layout_width="500px"
+            android:layout_height="60dp"
+            android:text="SEARCH"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/search"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginLeft="110dp"
+            />
+        <Button
+            android:layout_width="500px"
+            android:layout_height="60dp"
+            android:text="LIST"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/list"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginLeft="110dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

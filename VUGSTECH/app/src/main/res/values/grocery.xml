@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="groceries">
+        <item>Pulses</item>
+        <item>Atta and Other Flours</item>
+        <item>Rice and Other Grains</item>
+        <item>Edible Oils</item>
+        <item>Ghee and Vanaspati</item>
+        <item>Spices</item>
+    </string-array>
+</resources>

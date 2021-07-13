@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210596572086",
+    "project_id": "vugs-tech",
+    "storage_bucket": "vugs-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210596572086:android:1355dbd39ed6fd71f92f17",
+        "android_client_info": {
+          "package_name": "com.yash.vugstech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210596572086-86esj4p747kkeii141r7odrpeahj9spg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYJndTZsslx2gMd5HfjjC_1hmqH1vyPmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210596572086-86esj4p747kkeii141r7odrpeahj9spg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
